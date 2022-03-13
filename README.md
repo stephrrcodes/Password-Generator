@@ -22,9 +22,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 ## Links
-
+    https://stephrrcodes.github.io/Password-Generator/
 
 ## Author
 The original author is 
 - [Xandromus](https://github.com/Xandromus)
-This project was cloned an modified for class usage. 
