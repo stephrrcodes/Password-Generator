@@ -58,7 +58,7 @@ function generatePassword (){
    if (CharOptions.UppercaseChars){
         possibleChars = possibleChars.concat(UppercaseChars);
     }
-    //for loop
+    // loop
    for (var i = 0; i < CharOptions.passwordLength; i++) {
         var chosenchars = RandChar(possibleChars)
         
