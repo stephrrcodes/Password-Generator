@@ -35,12 +35,12 @@ function passwordwindows() {
     return optionsChars;
 }
 
-// random generator for array
+// function that creates random generator for array
 function RandChar(array) {
     var randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
 }
-
+// function take gathers possible characters
 function generatePassword (){
    var CharOptions = passwordwindows()
    var result = []
@@ -60,6 +60,9 @@ function generatePassword (){
     }
     //for loop
    for (var i = 0; i < CharOptions.passwordLength; i++) {
+        var chosenchars = RandChar(possibleChars)
+        
+        result.push(chosenchars);
     }
     return result.join(""); 
 }
